@@ -53,8 +53,8 @@ void back(int time){
 }
 
 void left(int time){
-  motor1.write(0);
-  motor2.write(0);
+  motor1.write(70);
+  motor2.write(70);
   delay(time);
 }
 
@@ -69,6 +69,7 @@ void stop(int time){
   motor2.write(90);
   delay(time);
 }
+
 void loop() {
   // put your main code here, to run repeatedly:
 
